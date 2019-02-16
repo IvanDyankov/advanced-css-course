@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit; /* all elements inherit this from parent, ultimately from body */
+}
+
+html {
+  font-size: 62.5%; /* Default font size in %, to measure REMs */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: $color-gray-dark;
+  padding: 3rem;
+  /* box model to exclude margin and padding from width/height of elements */
+  box-sizing: border-box;
+}
